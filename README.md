@@ -6,7 +6,7 @@
 
 > I was supposed to open a new Pull Request (PR), check this previous code and write a good code review following the recommended steps. 
 
-In this project, [@BenMukebo](https://github.com/BenMukebo) and I were paired in the Microverse Admission Process, and together we had to build a page that would be functionally similar to [this example from CodePen](https://github.com/Kingjosh007).
+In this project, [@BenMukebo](https://github.com/BenMukebo) and I were paired in the Microverse Admission Process, and together we had to build a page that would be functionally similar to [this example from CodePen](https://codepen.io/freeCodeCamp/full/NdrKKL).
 
 
 ## Screenshot
