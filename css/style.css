@@ -1,58 +1,58 @@
 
 #navbar {
-    margin: 0;
-    padding: 0;
-    width: 250px;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    border-right: 2px solid #000;
-    
-
-  }
-
-  #navbar header{
-      margin-bottom: 20px;
-      text-align: center;
-  }
-  
-  /* Sidebar links */
-  #navbar a {
-    display: block;
-    color: black;
-    padding: 16px;
-    text-decoration: none;
-    border-bottom: 1px solid #000;
-  }
-  
-#section-right{
-    margin-left: 250px;
-    padding: 0 20px;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border-right: 2px solid #000;
 }
- header{
-    font-size: 28px;
-    font-weight: bold;
-    margin-top: 20px;
+
+header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
 }
-.main-section{
-    text-align: justify;
+
+#navbar header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Sidebar links */
+#navbar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+#section-right {
+  margin-left: 250px;
+  padding: 0 20px;
+}
+
+.main-section {
+  text-align: justify;
 }
 
 @media screen and (max-width: 700px) {
-    #navbar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    #navbar a {float: left;}
-    div.content {margin-left: 0;}
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
   }
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-  @media screen and (max-width: 400px) {
-    #navbar a {
-      text-align: center;
-      float: none;
-    }
+  #navbar a { float: left; }
+  div.content { margin-left: 0; }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  #navbar a {
+    text-align: center;
+    float: none;
   }
+}
